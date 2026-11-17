@@ -2,6 +2,7 @@ import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit
+"/script.js": ("script.js", "text/javascript; charset=utf-8"),
 
 carpeta = Path(__file__).resolve().parent
 
