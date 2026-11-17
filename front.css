@@ -246,3 +246,48 @@ hr {
     scroll-behavior: auto;
   }
 }
+
+.sugerencias-usuarios {
+    background: #f2eef8;
+    border-left: 4px solid #7855b5;
+    padding: 22px;
+}
+
+#formulario-sugerencia {
+    display: grid;
+    gap: 8px;
+}
+
+#formulario-sugerencia label {
+    font-weight: bold;
+}
+
+#formulario-sugerencia input,
+#formulario-sugerencia textarea {
+    min-width: 0;
+    padding: 10px;
+    margin-bottom: 6px;
+    border: 1px solid #8b779e;
+    border-radius: 4px;
+    font: inherit;
+}
+
+#formulario-sugerencia button {
+    justify-self: start;
+    padding: 10px 14px;
+    border: 0;
+    border-radius: 4px;
+    background: #65429f;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+#formulario-sugerencia button:disabled {
+    opacity: 0.65;
+    cursor: default;
+}
+
+#lista-guardadas {
+    overflow-wrap: anywhere;
+}
