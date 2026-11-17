@@ -68,6 +68,37 @@
                         </p>
                     </section>
 
+                    <section class="sugerencias-usuarios">
+                        <h2>Sugiere un idioma</h2>
+
+                        <form id="formulario-sugerencia">
+                            <label for="carrera">¿Qué carrera estudias?</label>
+                            <input id="carrera" name="carrera"
+                               placeholder="Ejemplo: Ingeniería" maxlength="80" required>
+
+                            <label for="especializacion">¿En qué te gustaría especializarte?</label>
+                            <input id="especializacion" name="especializacion"
+                                   placeholder="Ejemplo: Robótica" maxlength="100" required>
+
+                            <label for="idioma">¿Qué idioma sugieres?</label>
+                            <input id="idioma" name="idioma"
+                               placeholder="Ejemplo: Alemán" maxlength="60" required>
+
+                            <label for="motivo">¿Por qué lo sugieres?</label>
+                            <textarea id="motivo" name="motivo" rows="3" maxlength="300"
+                                    placeholder="Ejemplo: Para leer documentación de automatización."
+                                    required></textarea>
+
+                            <button type="submit" disabled>Guardar sugerencia</button>
+                        </form>
+
+                        <p id="estado" role="status"></p>
+
+                        <h3>Sugerencias guardadas</h3>
+                        <p id="sin-sugerencias" hidden>Todavía no hay sugerencias guardadas.</p>
+                        <ul id="lista-guardadas"></ul>
+                    </section>
+
                     <hr>
 
                     <section class="porque" aria-labelledby="por-que">
