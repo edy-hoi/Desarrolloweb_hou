@@ -291,3 +291,17 @@ hr {
 #lista-guardadas {
     overflow-wrap: anywhere;
 }
+#formulario-sugerencia {
+    display: grid;
+    gap: 8px;
+}
+
+#formulario-sugerencia input,
+#formulario-sugerencia textarea {
+    padding: 10px;
+    font: inherit;
+}
+
+#formulario-sugerencia button {
+    justify-self: start;
+}
