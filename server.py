@@ -175,7 +175,8 @@ if __name__ == "__main__":
     preparar_base()
 
     with HTTPServer(("127.0.0.1", 3000), PaginaIdiomas) as servidor:
-        print("Abre http://127.0.0.1:3000 en tu navegador", flush=True)
+        #print("Abre http://127.0.0.1:3000 en tu navegador", flush=True)
+        print("https://edy-hoi.github.io/Desarrolloweb_hou/ en tu navegador", flush=True)
 
         try:
             servidor.serve_forever()
